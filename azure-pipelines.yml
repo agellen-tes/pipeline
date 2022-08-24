@@ -6,8 +6,7 @@
 trigger:
 - main
 
-pool:
-  vmImage: agellenVmssGradle01
+pool: agellenVmssGradle01
 
 steps:
 - script: echo Hello, world!
