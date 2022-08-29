@@ -26,4 +26,4 @@ stages:
     
     - job: Job_4
       steps:
-        - template: template4.yml
+        - template: template2.yml
