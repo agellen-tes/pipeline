@@ -1,5 +1,4 @@
-#name: pipelineDemo__$(Date:yyyyMMdd) --> $(Rev:r)
-name: pipelineDemo
+name: pipelineDemo__$(Date:yyyyMMdd) --> $(Rev:r)
 
 trigger:
 - main
@@ -11,7 +10,7 @@ stages:
     jobs:
     - job: Job_1
       steps:
-        - template: template1.yaml
+        - template: template1.yml
 
     - job: Job_2
       steps:
@@ -27,4 +26,4 @@ stages:
     
     - job: Job_4
       steps:
-        - template: template4.yaml
+        - template: template4.yml
