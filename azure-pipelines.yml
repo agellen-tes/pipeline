@@ -1,4 +1,5 @@
-name: pipelineDemo__$(Date:yyyyMMdd) --> $(Rev:r)
+#name: pipelineDemo__$(Date:yyyyMMdd) --> $(Rev:r)
+name: pipelineDemo
 
 trigger:
 - main
