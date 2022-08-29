@@ -1,1 +1,2 @@
-script: echo hello from yaml template 4
+steps:
+  - script: echo hello from yaml template 4

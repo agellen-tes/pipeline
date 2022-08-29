@@ -1,1 +1,2 @@
-script: echo hello from template 1
+steps: 
+  - script: echo hello from template 1
